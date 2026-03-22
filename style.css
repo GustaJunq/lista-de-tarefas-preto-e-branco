@@ -1,0 +1,61 @@
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#tarefa {
+    width: 50%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#adicionar {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#adicionar:hover {
+    background-color: #3e8e41;
+}
+
+#lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lista li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#lista li:last-child {
+    border-bottom: none;
+}
+
+#salvar {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#salvar:hover {
+    background-color: #3e8e41;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
